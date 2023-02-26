@@ -1,0 +1,44 @@
+.task {
+  width: 750px;
+  display: grid;
+  grid-template-columns: 30px auto 60px;
+  grid-template-rows: 40px;
+  margin: 0 auto 5px auto;
+  align-items: center;
+  border: 1px solid #fa1e3e;
+
+  &__checkbox {
+    margin: auto;
+    width: 20px;
+    height: 20px;
+  }
+
+  &__text {
+    margin: auto 0;
+    padding: 5px;
+
+    color: white;
+    font-size: 20px;
+
+    &_completed {
+      text-decoration: line-through;
+    }
+
+    &_input {
+      height: 20px;
+      border: none;
+      background-color: #636363;
+      margin-right: 5px;
+    }
+
+    &_input:focus {
+      background: white;
+      color: black;
+      outline: none;
+    }
+  }
+
+  &Actions {
+    display: flex;
+  }
+}
