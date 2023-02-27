@@ -1,0 +1,16 @@
+.container {
+  margin: 0 auto 0 auto;
+  width: 800px;
+  height: 500px;
+  background-color: #262626;
+  border: 1px solid #fa1e3e;
+  display: flex;
+  flex-direction: column;
+  overflow-y: auto;
+
+  &__title {
+    text-transform: uppercase;
+    align-self: center;
+    color: #fa1e3e;
+  }
+}

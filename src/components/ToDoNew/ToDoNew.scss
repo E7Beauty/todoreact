@@ -1,0 +1,28 @@
+.toDoNew {
+  width: 750px;
+  display: grid;
+  grid-template-columns: auto 30px;
+  grid-template-rows: 30px;
+  margin: 5px auto;
+
+  &__input {
+    padding: 5px;
+    border: none;
+    background: #636363;
+
+  }
+
+  &__input:focus {
+    background: white;
+    color: black;
+    outline: none;
+  }
+
+  &__input::placeholder {
+    color: white;
+  }
+
+  &__input:focus::placeholder {
+    color: black;
+  }
+}

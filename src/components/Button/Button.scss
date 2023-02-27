@@ -1,0 +1,20 @@
+.button {
+  padding: 0;
+  border: none;
+  background: transparent;
+  cursor: pointer;
+  height: 30px;
+
+  &__image {
+    width: 30px;
+  }
+}
+
+.button:hover {
+  opacity: 30%;
+}
+
+.disabled {
+  cursor: default;
+  opacity: 30%;
+}
